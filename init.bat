@@ -6,7 +6,9 @@ echo it will be installed in your Desktop
 pause
 cls
  echo Initilizing the Script Please wait ....
- cd C:\%USERPROFILE%\Desktop\OSv1
+ cd C:\
+ mkdir OSv1
+ cd C:\OSv1
  git clone https://github.com/The-Technicians/Set-up.git
  setlocal enableextensions enabledelayedexpansion
 
@@ -34,4 +36,4 @@ cls
 echo Initilized
 cls
 echo Running Start Script
-call "C:\%USERPROFILE%\Desktop\OSv1\Set-Up\Setup.bat"
+call "C:\OSv1\Set-Up\Setup.bat"
